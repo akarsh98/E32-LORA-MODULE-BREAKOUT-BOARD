@@ -1,18 +1,18 @@
 # E32-LORA-MODULE-BREAKOUT-BOARD
 
-![alt text](https://github.com/akarsh98/ESP32-Dev-Board-with-GPS-and-OLED-Display/blob/master/pics/pcb_f.JPG?raw=true)
+![alt text](https://github.com/akarsh98/E32-LORA-MODULE-BREAKOUT-BOARD/blob/master/images/E32_1_F.JPG?raw=true)
 ###                                              FRONT SIDE IMAGE OF THE PCB
 
-Video tutorial : https://youtu.be/hh-_s-NNab4
+Video tutorial : 
 
-This PCB is a GPS position tracking device, which shows all the relevant data on an OLED display.
-The Pcb uses:
-1) ESP32 as the microcontroller
-2) Reyax GPS module
-3) OLED SSD13086 0.96' display
-4) Other basic components.
+This PCB is a breakout board for the E32 LoRa module from Ebyte/Cdebyte, This module:
+![alt text](https://github.com/akarsh98/E32-LORA-MODULE-BREAKOUT-BOARD/blob/master/images/e32.jpg?raw=true)
 
-So, in short, this project has an ESP32 which can give WiFi/Bluetooth functionality, OLED display and GPS module. Possibilities with the code are endless. I have also added a prototyping area where you can add sensors or other components to the ESP32 which is also accessible.
+The breakout board gives access to the Rx and Tx pins of the LoRa module. Apart from that there are 4 status LEDS for showing the current status of the module. 
+Then there is a mode selector switch as well for the M0 and M1 switches.
+
+You can find the [datasheet of the module HERE](http://www.ebyte.com/en/downpdf.aspx?id=132).
+
 
 You must check out [PCBWAY](https://www.pcbway.com/) for ordering PCBs online for cheap!
 
@@ -21,9 +21,10 @@ Check out their online [Gerber viewer](https://www.pcbway.com/project/OnlineGerb
 
 ![alt text](https://github.com/akarsh98/ESP32-LoRa-Relay-Control-Code-and-Circuit/blob/master/screenshots/PCBWAY.JPG?raw=true)
 
-![alt text](https://github.com/akarsh98/ESP32-Dev-Board-with-GPS-and-OLED-Display/blob/master/pics/pcb_b.JPG?raw=true)
+![alt text](https://github.com/akarsh98/E32-LORA-MODULE-BREAKOUT-BOARD/blob/master/images/E32_1_B.JPG?raw=true)
 ###                                              BACK SIDE IMAGE OF THE PCB
 
 ### This is the schematic for the project:
 
-![alt text](https://github.com/akarsh98/ESP32-GPS-tracker/blob/master/pics/3.JPG?raw=true)
+![alt text](https://github.com/akarsh98/E32-LORA-MODULE-BREAKOUT-BOARD/blob/master/images/IMG_20190519_182810.jpg?raw=true)
+![alt text](https://github.com/akarsh98/E32-LORA-MODULE-BREAKOUT-BOARD/blob/master/images/E32_1%20SCH.JPG?raw=true)
